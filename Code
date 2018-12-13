@@ -1,0 +1,26 @@
+def divider(d):
+    i = 2
+    j = 0 
+    while i**2 <= d and j != 1:
+        if d%i == 0:
+            j = 1
+        i += 1
+    if j != 1:
+        print (d)
+   
+n = str(input())
+
+sort = n.split()
+repeat = list(set(sort))
+string = ' '.join(repeat)
+number = string.split()
+
+d = int(number[0])
+m = int(number[1])
+z = int(number[2])
+
+divider(d)
+divider(m)
+divider(z)
+
+# я зробив на три числа
