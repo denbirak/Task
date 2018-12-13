@@ -11,10 +11,7 @@ def divider(d):
    
 n = str(input())
 
-sort = n.split()
-repeat = list(set(sort))
-string = ' '.join(repeat)
-number = string.split()
+number = n.split()
 
 d = int(number[0])
 m = int(number[1])
