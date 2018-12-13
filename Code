@@ -1,11 +1,12 @@
 def divider(d):
     i = 2
     j = 0 
+    
     while i**2 <= d and j != 1:
         if d%i == 0:
             j = 1
         i += 1
-    if j != 1:
+    if j != 1 and d >= 2 :
         print (d)
    
 n = str(input())
