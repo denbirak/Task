@@ -9,7 +9,7 @@ def divider(d):
     if j != 1 and d >= 2 :
         print (d)
    
-n = str(input())
+n = str(input("Enter numbers: "))
 
 number = n.split()
 
