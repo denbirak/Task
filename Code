@@ -14,12 +14,5 @@ n = str(input("Enter numbers: "))
 
 number = n.split()
 
-d = int(number[0])
-m = int(number[1])
-z = int(number[2])
-
-divider(d)
-divider(m)
-divider(z)
-
-# я зробив на три числа
+for elements in number:
+    divider(int(elements)
